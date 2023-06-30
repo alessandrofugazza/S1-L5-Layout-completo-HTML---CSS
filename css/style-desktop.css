@@ -90,28 +90,25 @@ button:hover {
     cursor: pointer;
 }
 
-main>article>section:nth-of-type(2) {
-    padding: 10rem 10rem;
-}
-
-main>article>section:nth-of-type(2)>div {
-    margin: auto;
+main>article>section>div {
+    padding-block: 8rem;
 }
 
 main>article>section:nth-of-type(2)>div>div {
     display: inline-block;
-    max-width: 36rem;
-    text-align: left;
+    max-width: 37rem;
+    vertical-align: middle;
 }
 
-main section>div>div>div {
-    padding-inline: 40px;
+main>article>section:nth-of-type(2)>div>div:last-of-type {
+    text-align: left;
+    padding-left: 4.5rem;
+    margin-bottom: 2rem;
 }
 
 main article>section img {
-    max-width: 100%;
-    padding-inline: 5px;
     border-radius: 50%;
+    width: 33rem;
 }
 
 main>article>section>div>div>div:not(:last-of-type) {
