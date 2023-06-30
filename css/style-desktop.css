@@ -132,8 +132,6 @@ main>article>section>div>div>div:not(:last-of-type) {
     margin-bottom: 25px;
 }
 
-.quote div {}
-
 .quote>p {
     font-style: italic;
     font-size: 1.5rem;
