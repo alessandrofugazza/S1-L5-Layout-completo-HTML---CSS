@@ -45,6 +45,7 @@ header img {
     max-width: 100%;
 }
 
+
 /* body */
 
 h1,
@@ -67,6 +68,10 @@ h3 {
     padding-top: 40px;
 }
 
+.introduction p {
+    margin-bottom: 25px;
+}
+
 button {
     background-color: #f04c2f;
     border: 0;
@@ -83,30 +88,19 @@ main section>div {
     padding-inline: 40px;
 }
 
-main button {
-    text-transform: uppercase;
-}
-
-main>article>section:nth-of-type(2) {
-    padding-block: 50px;
+main section:nth-of-type(2) {
+    padding-top: 50px;
     padding-bottom: 65px;
 }
 
-main article>section>div>img {
+main img {
     max-width: 100%;
     max-height: 16rem;
-    padding-inline: 5px;
     border-radius: 50%;
 }
 
-
-
-main>article>section>div:not(:last-of-type) {
+main section>div:not(:last-of-type) {
     margin-bottom: 30px;
-}
-
-.introduction p {
-    margin-bottom: 25px;
 }
 
 .quote {
@@ -121,8 +115,6 @@ main>article>section>div:not(:last-of-type) {
     margin-bottom: 25px;
 }
 
-.quote div {}
-
 .quote>p {
     font-style: italic;
     font-size: 0.95rem;
@@ -133,6 +125,7 @@ main>article>section>div:not(:last-of-type) {
     font-size: 0.8rem;
 }
 
+
 /* aside */
 
 aside>div {
@@ -141,13 +134,7 @@ aside>div {
     padding-bottom: 65px;
 }
 
-aside>div>article:not(:last-of-type) {
-    padding-bottom: 30px;
-}
-
-.aside-box div:last-of-type {
-    padding-inline: 25px;
-    padding-top: 20px;
+aside article:not(:last-of-type) {
     padding-bottom: 30px;
 }
 
@@ -155,8 +142,13 @@ aside>div>article:not(:last-of-type) {
     border: 1px solid #dee1e3;
 }
 
+/* fix */
 .aside-box img {
     width: 100%;
+}
+
+.aside-box div:nth-of-type(2) {
+    padding: 20px 25px 30px;
 }
 
 
@@ -169,6 +161,7 @@ footer {
     color: #c8e7f0;
 }
 
+/* fix */
 hr {
     width: 60%;
     margin-block: 20px;
@@ -191,8 +184,4 @@ footer p:first-of-type span {
 footer p:last-of-type span {
     font-size: 0.8rem;
     vertical-align: top;
-}
-
-address {
-    display: inline;
 }
