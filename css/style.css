@@ -127,6 +127,11 @@ main section>div:not(:last-of-type) {
     font-size: 0.8rem;
 }
 
+.quote h3 {
+    color: white;
+    font-size: 2rem;
+}
+
 
 /* aside */
 
@@ -174,10 +179,9 @@ hr {
     color: #c8e7f0;
 }
 
-.quote h3,
 footer h3 {
     color: white;
-    font-size: 2rem;
+    font-size: 2.2rem;
 }
 
 footer a {
