@@ -164,6 +164,10 @@ footer {
     color: #c8e7f0;
 }
 
+.fas {
+    color: white
+}
+
 hr {
     width: 60%;
     margin-block: 20px;
