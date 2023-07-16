@@ -18,11 +18,6 @@ h4 {
     line-height: 1.5;
 }
 
-h1 {
-    font-size: 2rem;
-    line-height: normal;
-}
-
 *,
 *::before,
 *::after {
@@ -52,6 +47,7 @@ h1 {
     max-width: 6em;
     margin-inline: auto;
     line-height: 1;
+    font-size: 2.1rem;
 }
 
 h1,
