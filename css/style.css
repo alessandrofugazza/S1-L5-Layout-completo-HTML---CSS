@@ -142,6 +142,7 @@ aside article:not(:last-of-type) {
 
 .aside-box {
     border: 1px solid #dee1e3;
+    border-radius: 3.5px;
 }
 
 /* fix */
