@@ -87,7 +87,7 @@ button {
 }
 
 main section>div {
-    padding-inline: 40px;
+    padding-inline: 1.9em;
 }
 
 main section:nth-of-type(2) {
@@ -108,7 +108,7 @@ main section>div:not(:last-of-type) {
 .quote {
     background-color: #e22d0e;
     padding-top: 65px;
-    padding-inline: 45px;
+    padding-inline: 1.5em;
     padding-bottom: 35px;
     color: white;
 }
@@ -171,7 +171,7 @@ hr {
 .quote h3,
 footer h3 {
     color: white;
-    font-size: 2.6rem;
+    font-size: 2rem;
 }
 
 footer a {
